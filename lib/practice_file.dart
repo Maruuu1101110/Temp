@@ -10,6 +10,21 @@ class PracticeFile extends StatefulWidget {
 class _PracticeFileState extends State<PracticeFile> {
   late String _title = "Home";
   int _currentIndex = 0;
+
+  late PageController _pageController;
+
+  @override
+  void initState() {
+    super.initState();
+    _pageController = PageController(initialPage: _currentIndex);
+  }
+
+  @override
+  void dispose() {
+    _pageController.dispose();
+    super.dispose();
+  }
+
   late final List<Widget> _page = [
     Center(
       child: Text(
@@ -157,14 +172,20 @@ class _PracticeFileState extends State<PracticeFile> {
         ],
       ),
       drawer: Drawer(),
-      body: Center(child: _page[_currentIndex]),
+      body: Center(
+        child: PageView(
+          controller: _pageController,
+          onPageChanged: (index) => setState(() => _currentIndex = index),
+          children: _page,
+        ),
+      ),
       bottomNavigationBar: BottomNavigationBar(
         selectedItemColor: Colors.blue.shade800,
         unselectedItemColor: Colors.grey,
         currentIndex: _currentIndex,
         onTap: (index) {
           setState(() {
-            _currentIndex = index;
+            _pageController.animateToPage(index, duration: Duration(milliseconds: 500), curve: Curves.ease);
             switch (_currentIndex) {
               case 0:
                 _title = "Home";
