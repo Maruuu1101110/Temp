@@ -59,65 +59,30 @@ class _PracticeFileState extends State<PracticeFile> {
     return Column(
       children: [
         Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [_createContainer()],
-            ),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [_createContainer()],
-            ),
+            _createContainer(),
+            _createContainer(),
+            _createContainer(),
           ],
         ),
+        SizedBox(height: 10),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [_createContainer(), _createContainer()],
+        ),
+        SizedBox(height: 10),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [_createContainer(), _createContainer()],
+        ),
+        SizedBox(height: 10),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                _createContainer(),
-                SizedBox(height: 10),
-                _createContainer(),
-                SizedBox(height: 10),
-                _createContainer(),
-              ],
-            ),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: [
-                _createContainer(),
-                SizedBox(height: 10),
-                _createContainer(),
-                SizedBox(height: 10),
-                _createContainer(),
-              ],
-            ),
-
-            Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                _createContainer(),
-                SizedBox(height: 10),
-                _createContainer(),
-                SizedBox(height: 10),
-                _createContainer(),
-              ],
-            ),
-          ],
-        ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [_createContainer(), SizedBox(height: 10)],
-            ),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [_createContainer(), SizedBox(height: 10)],
-            ),
+            _createContainer(),
+            _createContainer(),
+            _createContainer(),
           ],
         ),
       ],
@@ -129,21 +94,17 @@ class _PracticeFileState extends State<PracticeFile> {
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
         Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            _createContainer(),
-            _createContainer(),
-            _createContainer(),
-          ],
-        ),
-        SizedBox(height: 10),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [_createContainer(), _createContainer()],
         ),
         SizedBox(height: 10),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [_createContainer()],
+        ),
+        SizedBox(height: 10),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             _createContainer(),
             _createContainer(),
@@ -153,6 +114,20 @@ class _PracticeFileState extends State<PracticeFile> {
         SizedBox(height: 10),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            _createContainer(),
+            _createContainer(),
+            _createContainer(),
+          ],
+        ),
+        SizedBox(height: 10),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [_createContainer()],
+        ),
+        SizedBox(height: 10),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [_createContainer(), _createContainer()],
         ),
       ],
@@ -175,17 +150,8 @@ class _PracticeFileState extends State<PracticeFile> {
       body: Center(
         child: PageView(
           controller: _pageController,
-          onPageChanged: (index) => setState(() => _currentIndex = index),
-          children: _page,
-        ),
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: Colors.blue.shade800,
-        unselectedItemColor: Colors.grey,
-        currentIndex: _currentIndex,
-        onTap: (index) {
-          setState(() {
-            _pageController.animateToPage(index, duration: Duration(milliseconds: 500), curve: Curves.ease);
+          onPageChanged: (index) => setState(() {
+            _currentIndex = index;
             switch (_currentIndex) {
               case 0:
                 _title = "Home";
@@ -196,6 +162,21 @@ class _PracticeFileState extends State<PracticeFile> {
               case 3:
                 _title = "Row";
             }
+          }),
+          children: _page,
+        ),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: Colors.blue.shade800,
+        unselectedItemColor: Colors.grey,
+        currentIndex: _currentIndex,
+        onTap: (index) {
+          setState(() {
+            _pageController.animateToPage(
+              index,
+              duration: Duration(milliseconds: 500),
+              curve: Curves.ease,
+            );
           });
         },
         items: [
