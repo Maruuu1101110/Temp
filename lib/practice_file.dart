@@ -137,11 +137,18 @@ class _PracticeFileState extends State<PracticeFile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text(_title),
+        backgroundColor: Colors.white,
         leading: Icon(Icons.menu, color: Colors.blue),
         actions: [
-          Icon(Icons.settings),
+          IconButton(
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            icon: Icon(Icons.exit_to_app),
+          ),
           Icon(Icons.notifications),
           Icon(Icons.person),
         ],
@@ -167,6 +174,7 @@ class _PracticeFileState extends State<PracticeFile> {
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.white,
         selectedItemColor: Colors.blue.shade800,
         unselectedItemColor: Colors.grey,
         currentIndex: _currentIndex,

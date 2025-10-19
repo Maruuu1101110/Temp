@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:trial/practice_file.dart';
+// import 'package:trial/practice_file.dart';
+import 'package:trial/practice_files/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: PracticeFile(),
+      home: LoginPage(),
     );
   }
 }
