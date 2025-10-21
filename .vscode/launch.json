@@ -1,0 +1,42 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Temp",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Temp (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Temp (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Temp (Flutter Web)",
+            "program": "lib/main.dart",
+            "deviceId": "web",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Temp (Flutter Linux)",
+            "program": "lib/main.dart",
+            "deviceId": "linux",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Temp (Flutter)",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}

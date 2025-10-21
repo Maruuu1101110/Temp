@@ -28,11 +28,11 @@ const RESOURCES = {"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2e
 "canvaskit/chromium/canvaskit.js": "5e27aae346eee469027c80af0751d53d",
 "canvaskit/skwasm_heavy.wasm": "8034ad26ba2485dab2fd49bdd786837b",
 "canvaskit/skwasm_heavy.js.symbols": "3c01ec03b5de6d62c34e17014d1decd3",
-"main.dart.js": "30a84a58bfdcfef45bc67d592c32b5c3",
+"main.dart.js": "36b3f85cd2cd78b96bc2ff9bce74dfb2",
 "index.html": "debc868b7079b93146ba619e7c694b09",
 "/": "debc868b7079b93146ba619e7c694b09",
 "manifest.json": "14d5c99d3510d542655d29427a5f145c",
-"flutter_bootstrap.js": "e45d29a4f8fcf7d4bdc4112ad320ce23",
+"flutter_bootstrap.js": "c29e819083ab427ea674953a68bb65b6",
 "version.json": "49d42822ea40c8230ac8c8d49f05862f",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "888483df48293866f9f41d3d9274a779"};

@@ -60,7 +60,7 @@ class _LoginPageState extends State<LoginPage> {
 
   Widget _createLoginForm(screenWidth) {
     return SizedBox(
-      width: screenWidth < 1100 ? screenWidth * 0.5 : 500,
+      width: screenWidth < 1100 ? (screenWidth * 0.85).clamp(0, 500.0) : 500,
       height: 170,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -113,7 +113,7 @@ class _LoginPageState extends State<LoginPage> {
           ),
           SizedBox(height: 5),
           Container(
-            width: screenWidth < 700 ? screenWidth * 0.45 : 450,
+            width: screenWidth < 700 ? screenWidth * 0.65 : 450,
             height: 40,
             decoration: BoxDecoration(
               color: Colors.deepPurpleAccent,
@@ -148,21 +148,23 @@ class _LoginPageState extends State<LoginPage> {
           backgroundColor: Colors.white,
         ),
         body: Center(
-          child: Flex(
-            mainAxisAlignment: isMobile
-                ? MainAxisAlignment.center
-                : MainAxisAlignment.spaceEvenly,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            direction: isMobile ? Axis.vertical : Axis.horizontal,
-            children: [
-              SizedBox(
-                width: isMobile ? 500 : (screenWidth / 2) * 0.9,
+          child: SingleChildScrollView(
+            child: Flex(
+              mainAxisAlignment: isMobile
+                  ? MainAxisAlignment.center
+                  : MainAxisAlignment.spaceEvenly,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              direction: isMobile ? Axis.vertical : Axis.horizontal,
+              children: [
+                SizedBox(
+                  width: isMobile ? 500 : (screenWidth / 2) * 0.9,
 
-                child: Image.asset("assets/login_image.png"),
-              ),
-              SizedBox(height: 20),
-              _createLoginForm(screenWidth),
-            ],
+                  child: Image.asset("assets/login_image.png"),
+                ),
+                SizedBox(height: 20),
+                Center(child: _createLoginForm(screenWidth)),
+              ],
+            ),
           ),
         ),
       ),
