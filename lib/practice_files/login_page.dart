@@ -61,11 +61,10 @@ class _LoginPageState extends State<LoginPage> {
   Widget _createLoginForm(screenWidth) {
     return SizedBox(
       width: screenWidth < 1100 ? (screenWidth * 0.85).clamp(0, 500.0) : 500,
-      height: 170,
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
           Container(
+            margin: EdgeInsets.all(5),
             padding: EdgeInsets.symmetric(horizontal: 12),
             decoration: BoxDecoration(
               border: Border.all(width: 2),
@@ -85,6 +84,7 @@ class _LoginPageState extends State<LoginPage> {
             ),
           ),
           Container(
+            margin: EdgeInsets.all(5),
             padding: EdgeInsets.symmetric(horizontal: 12),
             decoration: BoxDecoration(
               border: Border.all(width: 2),
@@ -130,6 +130,8 @@ class _LoginPageState extends State<LoginPage> {
               ),
             ),
           ),
+          SizedBox(height: 5),
+          OutlinedButton(onPressed: () {}, child: Text("Sign up")),
         ],
       ),
     );

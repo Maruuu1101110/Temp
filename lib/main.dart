@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trial/practice_files/login_activity.dart';
 // import 'package:trial/practice_file.dart';
 import 'package:trial/practice_files/login_page.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: LoginPage(),
+      home: WelcomePage(),
     );
   }
 }

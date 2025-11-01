@@ -5,6 +5,7 @@
 /home/maruuu1101110/Projects/Temp/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
 /home/maruuu1101110/Projects/Temp/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
 /home/maruuu1101110/Projects/Temp/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/bundle/data/flutter_assets/assets/welcome-cats.gif
 /home/maruuu1101110/Projects/Temp/build/linux/x64/debug/bundle/data/flutter_assets/assets/login_image.png
 /home/maruuu1101110/Projects/Temp/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
 /home/maruuu1101110/Projects/Temp/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
