@@ -24,6 +24,7 @@ events:
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -38,6 +39,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -47,7 +49,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
       - "CMakeLists.txt:3 (project)"
     message: |
-      The system is: Linux - 6.17.3-arch2-1 - x86_64
+      The system is: Linux - 6.17.6-arch1-1 - x86_64
   -
     kind: "find-v1"
     backtrace:
@@ -73,6 +75,7 @@ events:
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -91,6 +94,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -118,6 +122,7 @@ events:
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -128,6 +133,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -162,6 +168,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -212,6 +219,7 @@ events:
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -220,6 +228,7 @@ events:
       - "/usr/local/sbin/llvm-ar"
       - "/usr/local/bin/llvm-ar"
       - "/var/lib/flatpak/exports/bin/llvm-ar"
+      - "/usr/lib/jvm/default/bin/llvm-ar"
       - "/usr/bin/site_perl/llvm-ar"
       - "/usr/bin/vendor_perl/llvm-ar"
       - "/usr/bin/core_perl/llvm-ar"
@@ -230,6 +239,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -258,6 +268,7 @@ events:
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -266,6 +277,7 @@ events:
       - "/usr/local/sbin/llvm-ranlib"
       - "/usr/local/bin/llvm-ranlib"
       - "/var/lib/flatpak/exports/bin/llvm-ranlib"
+      - "/usr/lib/jvm/default/bin/llvm-ranlib"
       - "/usr/bin/site_perl/llvm-ranlib"
       - "/usr/bin/vendor_perl/llvm-ranlib"
       - "/usr/bin/core_perl/llvm-ranlib"
@@ -276,6 +288,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -304,6 +317,7 @@ events:
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -312,6 +326,7 @@ events:
       - "/usr/local/sbin/llvm-strip"
       - "/usr/local/bin/llvm-strip"
       - "/var/lib/flatpak/exports/bin/llvm-strip"
+      - "/usr/lib/jvm/default/bin/llvm-strip"
       - "/usr/bin/site_perl/llvm-strip"
       - "/usr/bin/vendor_perl/llvm-strip"
       - "/usr/bin/core_perl/llvm-strip"
@@ -322,6 +337,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -350,6 +366,7 @@ events:
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -360,6 +377,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -388,6 +406,7 @@ events:
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -396,6 +415,7 @@ events:
       - "/usr/local/sbin/llvm-nm"
       - "/usr/local/bin/llvm-nm"
       - "/var/lib/flatpak/exports/bin/llvm-nm"
+      - "/usr/lib/jvm/default/bin/llvm-nm"
       - "/usr/bin/site_perl/llvm-nm"
       - "/usr/bin/vendor_perl/llvm-nm"
       - "/usr/bin/core_perl/llvm-nm"
@@ -406,6 +426,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -434,6 +455,7 @@ events:
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -442,6 +464,7 @@ events:
       - "/usr/local/sbin/llvm-objdump"
       - "/usr/local/bin/llvm-objdump"
       - "/var/lib/flatpak/exports/bin/llvm-objdump"
+      - "/usr/lib/jvm/default/bin/llvm-objdump"
       - "/usr/bin/site_perl/llvm-objdump"
       - "/usr/bin/vendor_perl/llvm-objdump"
       - "/usr/bin/core_perl/llvm-objdump"
@@ -452,6 +475,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -480,6 +504,7 @@ events:
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -488,6 +513,7 @@ events:
       - "/usr/local/sbin/llvm-objcopy"
       - "/usr/local/bin/llvm-objcopy"
       - "/var/lib/flatpak/exports/bin/llvm-objcopy"
+      - "/usr/lib/jvm/default/bin/llvm-objcopy"
       - "/usr/bin/site_perl/llvm-objcopy"
       - "/usr/bin/vendor_perl/llvm-objcopy"
       - "/usr/bin/core_perl/llvm-objcopy"
@@ -498,6 +524,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -526,6 +553,7 @@ events:
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -534,6 +562,7 @@ events:
       - "/usr/local/sbin/llvm-readelf"
       - "/usr/local/bin/llvm-readelf"
       - "/var/lib/flatpak/exports/bin/llvm-readelf"
+      - "/usr/lib/jvm/default/bin/llvm-readelf"
       - "/usr/bin/site_perl/llvm-readelf"
       - "/usr/bin/vendor_perl/llvm-readelf"
       - "/usr/bin/core_perl/llvm-readelf"
@@ -544,6 +573,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -572,6 +602,7 @@ events:
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -580,6 +611,7 @@ events:
       - "/usr/local/sbin/llvm-dlltool"
       - "/usr/local/bin/llvm-dlltool"
       - "/var/lib/flatpak/exports/bin/llvm-dlltool"
+      - "/usr/lib/jvm/default/bin/llvm-dlltool"
       - "/usr/bin/site_perl/llvm-dlltool"
       - "/usr/bin/vendor_perl/llvm-dlltool"
       - "/usr/bin/core_perl/llvm-dlltool"
@@ -587,6 +619,7 @@ events:
       - "/usr/local/sbin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/var/lib/flatpak/exports/bin/dlltool"
+      - "/usr/lib/jvm/default/bin/dlltool"
       - "/usr/bin/site_perl/dlltool"
       - "/usr/bin/vendor_perl/dlltool"
       - "/usr/bin/core_perl/dlltool"
@@ -597,6 +630,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -625,6 +659,7 @@ events:
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -633,6 +668,7 @@ events:
       - "/usr/local/sbin/llvm-addr2line"
       - "/usr/local/bin/llvm-addr2line"
       - "/var/lib/flatpak/exports/bin/llvm-addr2line"
+      - "/usr/lib/jvm/default/bin/llvm-addr2line"
       - "/usr/bin/site_perl/llvm-addr2line"
       - "/usr/bin/vendor_perl/llvm-addr2line"
       - "/usr/bin/core_perl/llvm-addr2line"
@@ -643,6 +679,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -670,6 +707,7 @@ events:
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -678,6 +716,7 @@ events:
       - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
       - "/var/lib/flatpak/exports/bin/tapi"
+      - "/usr/lib/jvm/default/bin/tapi"
       - "/usr/bin/site_perl/tapi"
       - "/usr/bin/vendor_perl/tapi"
       - "/usr/bin/core_perl/tapi"
@@ -688,6 +727,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -709,44 +749,49 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "llvm-ar-20.1"
-      - "llvm-ar-20"
-      - "llvm-ar20"
+      - "llvm-ar-21.1"
+      - "llvm-ar-21"
+      - "llvm-ar21"
       - "llvm-ar"
     candidate_directories:
       - "/usr/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
-      - "/usr/bin/llvm-ar-20.1"
-      - "/usr/local/sbin/llvm-ar-20.1"
-      - "/usr/local/bin/llvm-ar-20.1"
-      - "/var/lib/flatpak/exports/bin/llvm-ar-20.1"
-      - "/usr/bin/site_perl/llvm-ar-20.1"
-      - "/usr/bin/vendor_perl/llvm-ar-20.1"
-      - "/usr/bin/core_perl/llvm-ar-20.1"
-      - "/usr/bin/llvm-ar-20"
-      - "/usr/local/sbin/llvm-ar-20"
-      - "/usr/local/bin/llvm-ar-20"
-      - "/var/lib/flatpak/exports/bin/llvm-ar-20"
-      - "/usr/bin/site_perl/llvm-ar-20"
-      - "/usr/bin/vendor_perl/llvm-ar-20"
-      - "/usr/bin/core_perl/llvm-ar-20"
-      - "/usr/bin/llvm-ar20"
-      - "/usr/local/sbin/llvm-ar20"
-      - "/usr/local/bin/llvm-ar20"
-      - "/var/lib/flatpak/exports/bin/llvm-ar20"
-      - "/usr/bin/site_perl/llvm-ar20"
-      - "/usr/bin/vendor_perl/llvm-ar20"
-      - "/usr/bin/core_perl/llvm-ar20"
+      - "/usr/bin/llvm-ar-21.1"
+      - "/usr/local/sbin/llvm-ar-21.1"
+      - "/usr/local/bin/llvm-ar-21.1"
+      - "/var/lib/flatpak/exports/bin/llvm-ar-21.1"
+      - "/usr/lib/jvm/default/bin/llvm-ar-21.1"
+      - "/usr/bin/site_perl/llvm-ar-21.1"
+      - "/usr/bin/vendor_perl/llvm-ar-21.1"
+      - "/usr/bin/core_perl/llvm-ar-21.1"
+      - "/usr/bin/llvm-ar-21"
+      - "/usr/local/sbin/llvm-ar-21"
+      - "/usr/local/bin/llvm-ar-21"
+      - "/var/lib/flatpak/exports/bin/llvm-ar-21"
+      - "/usr/lib/jvm/default/bin/llvm-ar-21"
+      - "/usr/bin/site_perl/llvm-ar-21"
+      - "/usr/bin/vendor_perl/llvm-ar-21"
+      - "/usr/bin/core_perl/llvm-ar-21"
+      - "/usr/bin/llvm-ar21"
+      - "/usr/local/sbin/llvm-ar21"
+      - "/usr/local/bin/llvm-ar21"
+      - "/var/lib/flatpak/exports/bin/llvm-ar21"
+      - "/usr/lib/jvm/default/bin/llvm-ar21"
+      - "/usr/bin/site_perl/llvm-ar21"
+      - "/usr/bin/vendor_perl/llvm-ar21"
+      - "/usr/bin/core_perl/llvm-ar21"
       - "/usr/bin/llvm-ar"
       - "/usr/local/sbin/llvm-ar"
       - "/usr/local/bin/llvm-ar"
       - "/var/lib/flatpak/exports/bin/llvm-ar"
+      - "/usr/lib/jvm/default/bin/llvm-ar"
       - "/usr/bin/site_perl/llvm-ar"
       - "/usr/bin/vendor_perl/llvm-ar"
       - "/usr/bin/core_perl/llvm-ar"
@@ -757,6 +802,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -778,44 +824,49 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "llvm-ranlib-20.1"
-      - "llvm-ranlib-20"
-      - "llvm-ranlib20"
+      - "llvm-ranlib-21.1"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
       - "llvm-ranlib"
     candidate_directories:
       - "/usr/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
-      - "/usr/bin/llvm-ranlib-20.1"
-      - "/usr/local/sbin/llvm-ranlib-20.1"
-      - "/usr/local/bin/llvm-ranlib-20.1"
-      - "/var/lib/flatpak/exports/bin/llvm-ranlib-20.1"
-      - "/usr/bin/site_perl/llvm-ranlib-20.1"
-      - "/usr/bin/vendor_perl/llvm-ranlib-20.1"
-      - "/usr/bin/core_perl/llvm-ranlib-20.1"
-      - "/usr/bin/llvm-ranlib-20"
-      - "/usr/local/sbin/llvm-ranlib-20"
-      - "/usr/local/bin/llvm-ranlib-20"
-      - "/var/lib/flatpak/exports/bin/llvm-ranlib-20"
-      - "/usr/bin/site_perl/llvm-ranlib-20"
-      - "/usr/bin/vendor_perl/llvm-ranlib-20"
-      - "/usr/bin/core_perl/llvm-ranlib-20"
-      - "/usr/bin/llvm-ranlib20"
-      - "/usr/local/sbin/llvm-ranlib20"
-      - "/usr/local/bin/llvm-ranlib20"
-      - "/var/lib/flatpak/exports/bin/llvm-ranlib20"
-      - "/usr/bin/site_perl/llvm-ranlib20"
-      - "/usr/bin/vendor_perl/llvm-ranlib20"
-      - "/usr/bin/core_perl/llvm-ranlib20"
+      - "/usr/bin/llvm-ranlib-21.1"
+      - "/usr/local/sbin/llvm-ranlib-21.1"
+      - "/usr/local/bin/llvm-ranlib-21.1"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib-21.1"
+      - "/usr/lib/jvm/default/bin/llvm-ranlib-21.1"
+      - "/usr/bin/site_perl/llvm-ranlib-21.1"
+      - "/usr/bin/vendor_perl/llvm-ranlib-21.1"
+      - "/usr/bin/core_perl/llvm-ranlib-21.1"
+      - "/usr/bin/llvm-ranlib-21"
+      - "/usr/local/sbin/llvm-ranlib-21"
+      - "/usr/local/bin/llvm-ranlib-21"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib-21"
+      - "/usr/lib/jvm/default/bin/llvm-ranlib-21"
+      - "/usr/bin/site_perl/llvm-ranlib-21"
+      - "/usr/bin/vendor_perl/llvm-ranlib-21"
+      - "/usr/bin/core_perl/llvm-ranlib-21"
+      - "/usr/bin/llvm-ranlib21"
+      - "/usr/local/sbin/llvm-ranlib21"
+      - "/usr/local/bin/llvm-ranlib21"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib21"
+      - "/usr/lib/jvm/default/bin/llvm-ranlib21"
+      - "/usr/bin/site_perl/llvm-ranlib21"
+      - "/usr/bin/vendor_perl/llvm-ranlib21"
+      - "/usr/bin/core_perl/llvm-ranlib21"
       - "/usr/bin/llvm-ranlib"
       - "/usr/local/sbin/llvm-ranlib"
       - "/usr/local/bin/llvm-ranlib"
       - "/var/lib/flatpak/exports/bin/llvm-ranlib"
+      - "/usr/lib/jvm/default/bin/llvm-ranlib"
       - "/usr/bin/site_perl/llvm-ranlib"
       - "/usr/bin/vendor_perl/llvm-ranlib"
       - "/usr/bin/core_perl/llvm-ranlib"
@@ -826,6 +877,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -847,40 +899,44 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "clang-scan-deps-20.1"
-      - "clang-scan-deps-20"
-      - "clang-scan-deps20"
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
       - "clang-scan-deps"
     candidate_directories:
       - "/usr/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
-      - "/usr/bin/clang-scan-deps-20.1"
-      - "/usr/local/sbin/clang-scan-deps-20.1"
-      - "/usr/local/bin/clang-scan-deps-20.1"
-      - "/var/lib/flatpak/exports/bin/clang-scan-deps-20.1"
-      - "/usr/bin/site_perl/clang-scan-deps-20.1"
-      - "/usr/bin/vendor_perl/clang-scan-deps-20.1"
-      - "/usr/bin/core_perl/clang-scan-deps-20.1"
-      - "/usr/bin/clang-scan-deps-20"
-      - "/usr/local/sbin/clang-scan-deps-20"
-      - "/usr/local/bin/clang-scan-deps-20"
-      - "/var/lib/flatpak/exports/bin/clang-scan-deps-20"
-      - "/usr/bin/site_perl/clang-scan-deps-20"
-      - "/usr/bin/vendor_perl/clang-scan-deps-20"
-      - "/usr/bin/core_perl/clang-scan-deps-20"
-      - "/usr/bin/clang-scan-deps20"
-      - "/usr/local/sbin/clang-scan-deps20"
-      - "/usr/local/bin/clang-scan-deps20"
-      - "/var/lib/flatpak/exports/bin/clang-scan-deps20"
-      - "/usr/bin/site_perl/clang-scan-deps20"
-      - "/usr/bin/vendor_perl/clang-scan-deps20"
-      - "/usr/bin/core_perl/clang-scan-deps20"
+      - "/usr/bin/clang-scan-deps-21.1"
+      - "/usr/local/sbin/clang-scan-deps-21.1"
+      - "/usr/local/bin/clang-scan-deps-21.1"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-21.1"
+      - "/usr/lib/jvm/default/bin/clang-scan-deps-21.1"
+      - "/usr/bin/site_perl/clang-scan-deps-21.1"
+      - "/usr/bin/vendor_perl/clang-scan-deps-21.1"
+      - "/usr/bin/core_perl/clang-scan-deps-21.1"
+      - "/usr/bin/clang-scan-deps-21"
+      - "/usr/local/sbin/clang-scan-deps-21"
+      - "/usr/local/bin/clang-scan-deps-21"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-21"
+      - "/usr/lib/jvm/default/bin/clang-scan-deps-21"
+      - "/usr/bin/site_perl/clang-scan-deps-21"
+      - "/usr/bin/vendor_perl/clang-scan-deps-21"
+      - "/usr/bin/core_perl/clang-scan-deps-21"
+      - "/usr/bin/clang-scan-deps21"
+      - "/usr/local/sbin/clang-scan-deps21"
+      - "/usr/local/bin/clang-scan-deps21"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps21"
+      - "/usr/lib/jvm/default/bin/clang-scan-deps21"
+      - "/usr/bin/site_perl/clang-scan-deps21"
+      - "/usr/bin/vendor_perl/clang-scan-deps21"
+      - "/usr/bin/core_perl/clang-scan-deps21"
     found: "/usr/bin/clang-scan-deps"
     search_context:
       ENV{PATH}:
@@ -888,6 +944,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -900,8 +957,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-iRKreg"
-      binary: "/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-iRKreg"
+      source: "/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-B1dLeR"
+      binary: "/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-B1dLeR"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
       CMAKE_CXX_FLAGS: ""
@@ -912,11 +969,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-iRKreg'
+        Change Dir: '/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-B1dLeR'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_8125c
-        [1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-        clang version 20.1.8
+        Run Build Command(s): /usr/bin/ninja -v cmTC_5bb99
+        [1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang version 21.1.4
         Target: x86_64-pc-linux-gnu
         Thread model: posix
         InstalledDir: /usr/bin
@@ -927,8 +984,8 @@ events:
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
          (in-process)
-         "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-iRKreg -v -fcoverage-compilation-dir=/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-iRKreg -resource-dir /usr/lib/clang/20 -dependency-file CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward -internal-isystem /usr/lib/clang/20/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-        clang -cc1 version 20.1.8 based upon LLVM 20.1.8 default target x86_64-pc-linux-gnu
+         "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-B1dLeR -v -fcoverage-compilation-dir=/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-B1dLeR -resource-dir /usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward -internal-isystem /usr/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.1.4 based upon LLVM 21.1.4 default target x86_64-pc-linux-gnu
         ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"
         ignoring nonexistent directory "/include"
         #include "..." search starts here:
@@ -936,12 +993,12 @@ events:
          /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1
          /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu
          /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward
-         /usr/lib/clang/20/include
+         /usr/lib/clang/21/include
          /usr/local/include
          /usr/include
         End of search list.
-        [2/2] : && /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8125c   && :
-        clang version 20.1.8
+        [2/2] : && /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5bb99   && :
+        clang version 21.1.4
         Target: x86_64-pc-linux-gnu
         Thread model: posix
         InstalledDir: /usr/bin
@@ -951,7 +1008,7 @@ events:
         Candidate multilib: .;@m64
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
-         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8125c /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5bb99 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o
         GNU ld (GNU Binutils) 2.45.0
         
       exitCode: 0
@@ -968,17 +1025,17 @@ events:
           add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1]
           add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu]
           add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward]
-          add: [/usr/lib/clang/20/include]
+          add: [/usr/lib/clang/21/include]
           add: [/usr/local/include]
           add: [/usr/include]
         end of search list found
         collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1] ==> [/usr/include/c++/15.2.1]
         collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu] ==> [/usr/include/c++/15.2.1/x86_64-pc-linux-gnu]
         collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward] ==> [/usr/include/c++/15.2.1/backward]
-        collapse include dir [/usr/lib/clang/20/include] ==> [/usr/lib/clang/20/include]
+        collapse include dir [/usr/lib/clang/21/include] ==> [/usr/lib/clang/21/include]
         collapse include dir [/usr/local/include] ==> [/usr/local/include]
         collapse include dir [/usr/include] ==> [/usr/include]
-        implicit include dirs: [/usr/include/c++/15.2.1;/usr/include/c++/15.2.1/x86_64-pc-linux-gnu;/usr/include/c++/15.2.1/backward;/usr/lib/clang/20/include;/usr/local/include;/usr/include]
+        implicit include dirs: [/usr/include/c++/15.2.1;/usr/include/c++/15.2.1/x86_64-pc-linux-gnu;/usr/include/c++/15.2.1/backward;/usr/lib/clang/21/include;/usr/local/include;/usr/include]
       
       
   -
@@ -991,11 +1048,11 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-iRKreg']
+        ignore line: [Change Dir: '/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-B1dLeR']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_8125c]
-        ignore line: [[1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [clang version 20.1.8]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_5bb99]
+        ignore line: [[1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 21.1.4]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /usr/bin]
@@ -1009,8 +1066,8 @@ events:
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
         ignore line: [ (in-process)]
-        ignore line: [ "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-iRKreg -v -fcoverage-compilation-dir=/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-iRKreg -resource-dir /usr/lib/clang/20 -dependency-file CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward -internal-isystem /usr/lib/clang/20/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [clang -cc1 version 20.1.8 based upon LLVM 20.1.8 default target x86_64-pc-linux-gnu]
+        ignore line: [ "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-B1dLeR -v -fcoverage-compilation-dir=/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-B1dLeR -resource-dir /usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward -internal-isystem /usr/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.1.4 based upon LLVM 21.1.4 default target x86_64-pc-linux-gnu]
         ignore line: [ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"]
         ignore line: [ignoring nonexistent directory "/include"]
         ignore line: [#include "..." search starts here:]
@@ -1018,12 +1075,12 @@ events:
         ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1]
         ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu]
         ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward]
-        ignore line: [ /usr/lib/clang/20/include]
+        ignore line: [ /usr/lib/clang/21/include]
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/bin/clang++  -v -Wl -v CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8125c   && :]
-        ignore line: [clang version 20.1.8]
+        ignore line: [[2/2] : && /usr/bin/clang++  -v -Wl -v CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5bb99   && :]
+        ignore line: [clang version 21.1.4]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /usr/bin]
@@ -1036,7 +1093,7 @@ events:
         ignore line: [@m32]
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
-        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8125c /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5bb99 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [--hash-style=gnu] ==> ignore
           arg [--build-id] ==> ignore
@@ -1047,18 +1104,18 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_8125c] ==> ignore
+          arg [cmTC_5bb99] ==> ignore
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
           arg [-L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1] ==> dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1]
           arg [-L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64] ==> dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64]
           arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib64] ==> dir [/usr/lib64]
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_8125c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_5bb99.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1077,7 +1134,7 @@ events:
         collapse library dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1] ==> [/usr/lib64/gcc/x86_64-pc-linux-gnu/15.2.1]
         collapse library dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64] ==> [/usr/lib64]
         collapse library dir [/lib/../lib64] ==> [/lib64]
-        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib64] ==> [/usr/lib64]
         collapse library dir [/lib] ==> [/lib]
         collapse library dir [/usr/lib] ==> [/usr/lib]
         implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
@@ -1120,6 +1177,7 @@ events:
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -1152,6 +1210,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1195,6 +1254,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1240,6 +1300,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1285,6 +1346,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1330,6 +1392,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1375,6 +1438,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1420,6 +1484,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1465,6 +1530,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1510,6 +1576,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1555,6 +1622,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1600,6 +1668,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1645,6 +1714,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1690,6 +1760,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1735,6 +1806,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1780,6 +1852,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1825,6 +1898,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1870,6 +1944,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1915,6 +1990,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
