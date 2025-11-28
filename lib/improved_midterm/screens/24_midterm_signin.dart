@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trial/improved_midterm%20copy/screens/24_midterm_registration.dart';
+import 'package:trial/improved_midterm/screens/24_midterm_registration.dart';
 
 import '../widgets/03_image.dart';
 import '../widgets/01_textfields.dart';
@@ -41,6 +41,7 @@ class _MidtermSignInState extends State<MidtermSignIn> {
               centerTitle: true,
               backgroundColor: Colors.transparent,
               elevation: 0,
+              scrolledUnderElevation: 0,
               actions: [
                 IconButton(
                   onPressed: () => setState(() {
@@ -63,7 +64,11 @@ class _MidtermSignInState extends State<MidtermSignIn> {
         ),
         child: Center(
           child: ConstrainedBox(
-            constraints: BoxConstraints(maxWidth: 500),
+            constraints: BoxConstraints(
+              maxWidth: 500,
+              minWidth: 500,
+              minHeight: 600,
+            ),
             child: Container(
               height: 600,
               margin: isPortrait

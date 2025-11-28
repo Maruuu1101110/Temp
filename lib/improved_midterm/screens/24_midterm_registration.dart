@@ -40,6 +40,7 @@ class _MidtermRegistrationState extends State<MidtermRegistration> {
               centerTitle: true,
               backgroundColor: Colors.transparent,
               elevation: 0,
+              scrolledUnderElevation: 0,
               actions: [
                 IconButton(
                   onPressed: () => setState(() {
@@ -62,7 +63,7 @@ class _MidtermRegistrationState extends State<MidtermRegistration> {
         ),
         child: Center(
           child: ConstrainedBox(
-            constraints: BoxConstraints(maxWidth: 500),
+            constraints: BoxConstraints(maxWidth: 500, minWidth: 500),
             child: SingleChildScrollView(
               child: Container(
                 width: 500,
@@ -98,7 +99,6 @@ class _MidtermRegistrationState extends State<MidtermRegistration> {
                             ),
                             Text(
                               "Let’s get you set up in a flash!",
-
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 16,
