@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:trial/practice_files/login_activity.dart';
+import 'package:trial/flutter_prelim_2/calculator-2.dart';
 // import 'package:trial/practice_file.dart';
-import 'package:trial/practice_files/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: WelcomePage(),
+      home: CalculatorScreen(),
     );
   }
 }

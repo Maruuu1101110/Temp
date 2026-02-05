@@ -19,13 +19,6 @@
             "flutterMode": "release"
         },
         {
-            "name": "Temp (Flutter Web)",
-            "program": "lib/main.dart",
-            "deviceId": "web",
-            "request": "launch",
-            "type": "dart"
-        },
-        {
             "name": "Temp (Flutter Linux)",
             "program": "lib/main.dart",
             "deviceId": "linux",
