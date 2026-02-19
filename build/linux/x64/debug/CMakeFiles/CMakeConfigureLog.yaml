@@ -20,11 +20,9 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -36,21 +34,17 @@ events:
       - "/usr/bin/core_perl/"
       - "/bin/"
     searched_directories:
-      - "/home/maruuu1101110/sdk/flutter/bin/uname"
-      - "/home/maruuu1101110/.local/bin/uname"
       - "/home/maruuu1101110/Android/Sdk/emulator/uname"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/uname"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/uname"
+      - "/home/maruuu1101110/sdk/flutter/uname"
+      - "/home/maruuu1101110/sdk/flutter/bin/uname"
       - "/usr/local/sbin/uname"
       - "/usr/local/bin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -88,11 +82,9 @@ events:
       - "ninja"
       - "samu"
     candidate_directories:
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -103,21 +95,15 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
-      - "/home/maruuu1101110/sdk/flutter/bin/ninja-build"
-      - "/home/maruuu1101110/sdk/flutter/bin/ninja"
-      - "/home/maruuu1101110/sdk/flutter/bin/samu"
-      - "/home/maruuu1101110/.local/bin/ninja-build"
-      - "/home/maruuu1101110/.local/bin/ninja"
-      - "/home/maruuu1101110/.local/bin/samu"
       - "/home/maruuu1101110/Android/Sdk/emulator/ninja-build"
       - "/home/maruuu1101110/Android/Sdk/emulator/ninja"
       - "/home/maruuu1101110/Android/Sdk/emulator/samu"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/ninja-build"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/ninja"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/samu"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/ninja-build"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/ninja"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/samu"
+      - "/home/maruuu1101110/sdk/flutter/ninja-build"
+      - "/home/maruuu1101110/sdk/flutter/ninja"
+      - "/home/maruuu1101110/sdk/flutter/samu"
+      - "/home/maruuu1101110/sdk/flutter/bin/ninja-build"
+      - "/home/maruuu1101110/sdk/flutter/bin/ninja"
+      - "/home/maruuu1101110/sdk/flutter/bin/samu"
       - "/usr/local/sbin/ninja-build"
       - "/usr/local/sbin/ninja"
       - "/usr/local/sbin/samu"
@@ -128,11 +114,9 @@ events:
     found: "/usr/bin/ninja"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -162,11 +146,9 @@ events:
     names:
       - "/usr/bin/clang++"
     candidate_directories:
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -179,11 +161,9 @@ events:
     found: "/usr/bin/clang++"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -220,11 +200,9 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -278,11 +256,9 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/"
@@ -294,11 +270,9 @@ events:
     found: "/usr/bin/llvm-ar"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -330,11 +304,9 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/"
@@ -346,11 +318,9 @@ events:
     found: "/usr/bin/llvm-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -382,11 +352,9 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/"
@@ -398,11 +366,9 @@ events:
     found: "/usr/bin/llvm-strip"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -434,11 +400,9 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/"
@@ -450,11 +414,9 @@ events:
     found: "/usr/bin/ld.lld"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -486,11 +448,9 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/"
@@ -502,11 +462,9 @@ events:
     found: "/usr/bin/llvm-nm"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -538,11 +496,9 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/"
@@ -554,11 +510,9 @@ events:
     found: "/usr/bin/llvm-objdump"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -590,11 +544,9 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/"
@@ -606,11 +558,9 @@ events:
     found: "/usr/bin/llvm-objcopy"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -642,11 +592,9 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/"
@@ -658,11 +606,9 @@ events:
     found: "/usr/bin/llvm-readelf"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -694,11 +640,9 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/"
@@ -710,11 +654,9 @@ events:
     found: "/usr/bin/llvm-dlltool"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -746,11 +688,9 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/"
@@ -762,11 +702,9 @@ events:
     found: "/usr/bin/llvm-addr2line"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -797,11 +735,9 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/"
@@ -812,11 +748,9 @@ events:
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/bin/tapi"
-      - "/home/maruuu1101110/sdk/flutter/bin/tapi"
-      - "/home/maruuu1101110/.local/bin/tapi"
       - "/home/maruuu1101110/Android/Sdk/emulator/tapi"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/tapi"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/tapi"
+      - "/home/maruuu1101110/sdk/flutter/tapi"
+      - "/home/maruuu1101110/sdk/flutter/bin/tapi"
       - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/tapi"
@@ -828,11 +762,9 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -866,11 +798,9 @@ events:
       - "llvm-ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/"
@@ -881,11 +811,9 @@ events:
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/bin/llvm-ar-21.1"
-      - "/home/maruuu1101110/sdk/flutter/bin/llvm-ar-21.1"
-      - "/home/maruuu1101110/.local/bin/llvm-ar-21.1"
       - "/home/maruuu1101110/Android/Sdk/emulator/llvm-ar-21.1"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/llvm-ar-21.1"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/llvm-ar-21.1"
+      - "/home/maruuu1101110/sdk/flutter/llvm-ar-21.1"
+      - "/home/maruuu1101110/sdk/flutter/bin/llvm-ar-21.1"
       - "/usr/local/sbin/llvm-ar-21.1"
       - "/usr/local/bin/llvm-ar-21.1"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/llvm-ar-21.1"
@@ -895,11 +823,9 @@ events:
       - "/usr/bin/vendor_perl/llvm-ar-21.1"
       - "/usr/bin/core_perl/llvm-ar-21.1"
       - "/usr/bin/llvm-ar-21"
-      - "/home/maruuu1101110/sdk/flutter/bin/llvm-ar-21"
-      - "/home/maruuu1101110/.local/bin/llvm-ar-21"
       - "/home/maruuu1101110/Android/Sdk/emulator/llvm-ar-21"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/llvm-ar-21"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/llvm-ar-21"
+      - "/home/maruuu1101110/sdk/flutter/llvm-ar-21"
+      - "/home/maruuu1101110/sdk/flutter/bin/llvm-ar-21"
       - "/usr/local/sbin/llvm-ar-21"
       - "/usr/local/bin/llvm-ar-21"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/llvm-ar-21"
@@ -909,11 +835,9 @@ events:
       - "/usr/bin/vendor_perl/llvm-ar-21"
       - "/usr/bin/core_perl/llvm-ar-21"
       - "/usr/bin/llvm-ar21"
-      - "/home/maruuu1101110/sdk/flutter/bin/llvm-ar21"
-      - "/home/maruuu1101110/.local/bin/llvm-ar21"
       - "/home/maruuu1101110/Android/Sdk/emulator/llvm-ar21"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/llvm-ar21"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/llvm-ar21"
+      - "/home/maruuu1101110/sdk/flutter/llvm-ar21"
+      - "/home/maruuu1101110/sdk/flutter/bin/llvm-ar21"
       - "/usr/local/sbin/llvm-ar21"
       - "/usr/local/bin/llvm-ar21"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/llvm-ar21"
@@ -925,11 +849,9 @@ events:
     found: "/usr/bin/llvm-ar"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -963,11 +885,9 @@ events:
       - "llvm-ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/"
@@ -978,11 +898,9 @@ events:
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/bin/llvm-ranlib-21.1"
-      - "/home/maruuu1101110/sdk/flutter/bin/llvm-ranlib-21.1"
-      - "/home/maruuu1101110/.local/bin/llvm-ranlib-21.1"
       - "/home/maruuu1101110/Android/Sdk/emulator/llvm-ranlib-21.1"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/llvm-ranlib-21.1"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/llvm-ranlib-21.1"
+      - "/home/maruuu1101110/sdk/flutter/llvm-ranlib-21.1"
+      - "/home/maruuu1101110/sdk/flutter/bin/llvm-ranlib-21.1"
       - "/usr/local/sbin/llvm-ranlib-21.1"
       - "/usr/local/bin/llvm-ranlib-21.1"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/llvm-ranlib-21.1"
@@ -992,11 +910,9 @@ events:
       - "/usr/bin/vendor_perl/llvm-ranlib-21.1"
       - "/usr/bin/core_perl/llvm-ranlib-21.1"
       - "/usr/bin/llvm-ranlib-21"
-      - "/home/maruuu1101110/sdk/flutter/bin/llvm-ranlib-21"
-      - "/home/maruuu1101110/.local/bin/llvm-ranlib-21"
       - "/home/maruuu1101110/Android/Sdk/emulator/llvm-ranlib-21"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/llvm-ranlib-21"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/llvm-ranlib-21"
+      - "/home/maruuu1101110/sdk/flutter/llvm-ranlib-21"
+      - "/home/maruuu1101110/sdk/flutter/bin/llvm-ranlib-21"
       - "/usr/local/sbin/llvm-ranlib-21"
       - "/usr/local/bin/llvm-ranlib-21"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/llvm-ranlib-21"
@@ -1006,11 +922,9 @@ events:
       - "/usr/bin/vendor_perl/llvm-ranlib-21"
       - "/usr/bin/core_perl/llvm-ranlib-21"
       - "/usr/bin/llvm-ranlib21"
-      - "/home/maruuu1101110/sdk/flutter/bin/llvm-ranlib21"
-      - "/home/maruuu1101110/.local/bin/llvm-ranlib21"
       - "/home/maruuu1101110/Android/Sdk/emulator/llvm-ranlib21"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/llvm-ranlib21"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/llvm-ranlib21"
+      - "/home/maruuu1101110/sdk/flutter/llvm-ranlib21"
+      - "/home/maruuu1101110/sdk/flutter/bin/llvm-ranlib21"
       - "/usr/local/sbin/llvm-ranlib21"
       - "/usr/local/bin/llvm-ranlib21"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/llvm-ranlib21"
@@ -1022,11 +936,9 @@ events:
     found: "/usr/bin/llvm-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -1060,11 +972,9 @@ events:
       - "clang-scan-deps"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/"
@@ -1075,11 +985,9 @@ events:
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/bin/clang-scan-deps-21.1"
-      - "/home/maruuu1101110/sdk/flutter/bin/clang-scan-deps-21.1"
-      - "/home/maruuu1101110/.local/bin/clang-scan-deps-21.1"
       - "/home/maruuu1101110/Android/Sdk/emulator/clang-scan-deps-21.1"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/clang-scan-deps-21.1"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/clang-scan-deps-21.1"
+      - "/home/maruuu1101110/sdk/flutter/clang-scan-deps-21.1"
+      - "/home/maruuu1101110/sdk/flutter/bin/clang-scan-deps-21.1"
       - "/usr/local/sbin/clang-scan-deps-21.1"
       - "/usr/local/bin/clang-scan-deps-21.1"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/clang-scan-deps-21.1"
@@ -1089,11 +997,9 @@ events:
       - "/usr/bin/vendor_perl/clang-scan-deps-21.1"
       - "/usr/bin/core_perl/clang-scan-deps-21.1"
       - "/usr/bin/clang-scan-deps-21"
-      - "/home/maruuu1101110/sdk/flutter/bin/clang-scan-deps-21"
-      - "/home/maruuu1101110/.local/bin/clang-scan-deps-21"
       - "/home/maruuu1101110/Android/Sdk/emulator/clang-scan-deps-21"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/clang-scan-deps-21"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/clang-scan-deps-21"
+      - "/home/maruuu1101110/sdk/flutter/clang-scan-deps-21"
+      - "/home/maruuu1101110/sdk/flutter/bin/clang-scan-deps-21"
       - "/usr/local/sbin/clang-scan-deps-21"
       - "/usr/local/bin/clang-scan-deps-21"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/clang-scan-deps-21"
@@ -1103,11 +1009,9 @@ events:
       - "/usr/bin/vendor_perl/clang-scan-deps-21"
       - "/usr/bin/core_perl/clang-scan-deps-21"
       - "/usr/bin/clang-scan-deps21"
-      - "/home/maruuu1101110/sdk/flutter/bin/clang-scan-deps21"
-      - "/home/maruuu1101110/.local/bin/clang-scan-deps21"
       - "/home/maruuu1101110/Android/Sdk/emulator/clang-scan-deps21"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/clang-scan-deps21"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/clang-scan-deps21"
+      - "/home/maruuu1101110/sdk/flutter/clang-scan-deps21"
+      - "/home/maruuu1101110/sdk/flutter/bin/clang-scan-deps21"
       - "/usr/local/sbin/clang-scan-deps21"
       - "/usr/local/bin/clang-scan-deps21"
       - "/home/maruuu1101110/.local/share/flatpak/exports/bin/clang-scan-deps21"
@@ -1119,11 +1023,9 @@ events:
     found: "/usr/bin/clang-scan-deps"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -1142,8 +1044,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-VE0cIo"
-      binary: "/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-VE0cIo"
+      source: "/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-mUYmoD"
+      binary: "/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-mUYmoD"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
       CMAKE_CXX_FLAGS: ""
@@ -1154,10 +1056,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-VE0cIo'
+        Change Dir: '/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-mUYmoD'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_3caeb
-        [1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/ninja -v cmTC_64376
+        [1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang version 21.1.6
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -1169,7 +1071,7 @@ events:
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
          (in-process)
-         "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-VE0cIo -v -fcoverage-compilation-dir=/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-VE0cIo -resource-dir /usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward -internal-isystem /usr/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-mUYmoD -v -fcoverage-compilation-dir=/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-mUYmoD -resource-dir /usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward -internal-isystem /usr/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 21.1.6 based upon LLVM 21.1.6 default target x86_64-pc-linux-gnu
         ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"
         ignoring nonexistent directory "/include"
@@ -1182,7 +1084,7 @@ events:
          /usr/local/include
          /usr/include
         End of search list.
-        [2/2] : && /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3caeb   && :
+        [2/2] : && /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_64376   && :
         clang version 21.1.6
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -1193,7 +1095,7 @@ events:
         Candidate multilib: .;@m64
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
-         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3caeb /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_64376 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o
         GNU ld (GNU Binutils) 2.45.1
         
       exitCode: 0
@@ -1233,10 +1135,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-VE0cIo']
+        ignore line: [Change Dir: '/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-mUYmoD']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_3caeb]
-        ignore line: [[1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_64376]
+        ignore line: [[1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang version 21.1.6]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -1251,7 +1153,7 @@ events:
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
         ignore line: [ (in-process)]
-        ignore line: [ "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-VE0cIo -v -fcoverage-compilation-dir=/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-VE0cIo -resource-dir /usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward -internal-isystem /usr/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-mUYmoD -v -fcoverage-compilation-dir=/home/maruuu1101110/Projects/Temp/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-mUYmoD -resource-dir /usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward -internal-isystem /usr/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 21.1.6 based upon LLVM 21.1.6 default target x86_64-pc-linux-gnu]
         ignore line: [ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"]
         ignore line: [ignoring nonexistent directory "/include"]
@@ -1264,7 +1166,7 @@ events:
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/bin/clang++  -v -Wl -v CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3caeb   && :]
+        ignore line: [[2/2] : && /usr/bin/clang++  -v -Wl -v CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_64376   && :]
         ignore line: [clang version 21.1.6]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -1278,7 +1180,7 @@ events:
         ignore line: [@m32]
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
-        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3caeb /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_64376 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [--hash-style=gnu] ==> ignore
           arg [--build-id] ==> ignore
@@ -1289,7 +1191,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_3caeb] ==> ignore
+          arg [cmTC_64376] ==> ignore
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
@@ -1300,7 +1202,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_3caeb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_64376.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1358,11 +1260,9 @@ events:
       - "pkg-config"
       - "pkgconf"
     candidate_directories:
-      - "/home/maruuu1101110/sdk/flutter/bin/"
-      - "/home/maruuu1101110/.local/bin/"
       - "/home/maruuu1101110/Android/Sdk/emulator/"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/home/maruuu1101110/sdk/flutter/"
+      - "/home/maruuu1101110/sdk/flutter/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -1390,16 +1290,12 @@ events:
       - "/opt/sbin/"
       - "/opt/"
     searched_directories:
-      - "/home/maruuu1101110/sdk/flutter/bin/pkg-config"
-      - "/home/maruuu1101110/sdk/flutter/bin/pkgconf"
-      - "/home/maruuu1101110/.local/bin/pkg-config"
-      - "/home/maruuu1101110/.local/bin/pkgconf"
       - "/home/maruuu1101110/Android/Sdk/emulator/pkg-config"
       - "/home/maruuu1101110/Android/Sdk/emulator/pkgconf"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/pkg-config"
-      - "/home/maruuu1101110/Android/Sdk/platform-tools/pkgconf"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/pkg-config"
-      - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin/pkgconf"
+      - "/home/maruuu1101110/sdk/flutter/pkg-config"
+      - "/home/maruuu1101110/sdk/flutter/pkgconf"
+      - "/home/maruuu1101110/sdk/flutter/bin/pkg-config"
+      - "/home/maruuu1101110/sdk/flutter/bin/pkgconf"
       - "/usr/local/sbin/pkg-config"
       - "/usr/local/sbin/pkgconf"
       - "/usr/local/bin/pkg-config"
@@ -1407,11 +1303,9 @@ events:
     found: "/usr/bin/pkg-config"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -1457,11 +1351,9 @@ events:
     found: "/usr/lib/libgtk-3.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -1509,11 +1401,9 @@ events:
     found: "/usr/lib/libgdk-3.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -1561,11 +1451,9 @@ events:
     found: "/usr/lib/libz.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -1613,11 +1501,9 @@ events:
     found: "/usr/lib/libpangocairo-1.0.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -1665,11 +1551,9 @@ events:
     found: "/usr/lib/libcairo-gobject.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -1717,11 +1601,9 @@ events:
     found: "/usr/lib/libgdk_pixbuf-2.0.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -1769,11 +1651,9 @@ events:
     found: "/usr/lib/libatk-1.0.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -1821,11 +1701,9 @@ events:
     found: "/usr/lib/libpango-1.0.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -1873,11 +1751,9 @@ events:
     found: "/usr/lib/libcairo.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -1925,11 +1801,9 @@ events:
     found: "/usr/lib/libharfbuzz.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -1977,11 +1851,9 @@ events:
     found: "/usr/lib/libgio-2.0.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -2029,11 +1901,9 @@ events:
     found: "/usr/lib/libgobject-2.0.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -2081,11 +1951,9 @@ events:
     found: "/usr/lib/libglib-2.0.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -2133,11 +2001,9 @@ events:
     found: "/usr/lib/libglib-2.0.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -2185,11 +2051,9 @@ events:
     found: "/usr/lib/libgio-2.0.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -2237,11 +2101,9 @@ events:
     found: "/usr/lib/libgobject-2.0.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -2289,11 +2151,9 @@ events:
     found: "/usr/lib/libglib-2.0.so"
     search_context:
       ENV{PATH}:
-        - "/home/maruuu1101110/sdk/flutter/bin"
-        - "/home/maruuu1101110/.local/bin/"
         - "/home/maruuu1101110/Android/Sdk/emulator"
-        - "/home/maruuu1101110/Android/Sdk/platform-tools"
-        - "/home/maruuu1101110/Android/Sdk/cmdline-tools/latest/bin"
+        - "/home/maruuu1101110/sdk/flutter"
+        - "/home/maruuu1101110/sdk/flutter/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
